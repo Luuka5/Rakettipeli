@@ -1,0 +1,98 @@
+
+body, html {
+    font-family: "Roboto Mono";
+    background-color: #000;
+    height: 100vh;
+    width: 100vw;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+img {
+    display: none;
+}
+
+p {
+    color: white;
+    position: absolute;
+    font-size: 150%;
+    background-color: #000a;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#enemyCount {
+    top: 20px;
+    left: 10px;
+}
+
+#clock {
+    top: 20px;
+    right: 20px;
+}
+
+#guide {
+    bottom: 20px;
+    left: 20px;
+    max-width: 50%;
+}
+#miniguide {
+    bottom: 20px;
+    right: 20px;
+    font-size: 100%;
+    max-width: 30%;
+    width: 25%;
+    max-height: 20px;
+    overflow: hidden;
+    transition: max-height 2s;
+}
+
+#miniguide:hover {
+    max-height: 100%;
+    transition: max-height 2s;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    
+    color: white;
+    font-size: 150%;
+    background-color: #000a;
+    padding: 10px;
+    border-radius: 10px;
+    
+    padding: 10px;
+    left: 50%;
+    top: 100px;
+    width: 500px;
+    
+    margin: 5px;
+}
+
+h5 {
+    margin: 5px;
+}
+
+.scoreboard {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    margin-left: -260px;
+    flex-direction: column;
+    padding: 20px;
+}
+
+canvas {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background: #012;
+    border: 2px solid #000;
+}

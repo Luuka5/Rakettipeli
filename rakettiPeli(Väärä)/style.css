@@ -1,0 +1,59 @@
+
+body, html {
+    font-family: "Roboto Mono";
+    background-color: #000;
+    height: 100vh;
+    width: 100vw;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+
+img {
+    display: none;
+}
+
+p {
+    color: white;
+    position: absolute;
+    font-size: 150%;
+    background-color: #0008;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+#enemyCount {
+    top: 20px;
+    left: 10px;
+}
+
+#time {
+    top: 20px;
+    right: 20px;
+}
+
+#guide {
+    bottom: 20px;
+    left: 20px;
+}
+
+#score {
+    display: none;
+    position: absolute;
+    left: 50%;
+    top: 100px;
+    margin-left: -220px;
+    width: 400px;
+}
+canvas {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    background: #012;
+    border: 2px solid #000;
+}
